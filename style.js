@@ -64,7 +64,8 @@ var links=document.querySelector('.links')
 var processed=[]
 function addlink(old, modified){
   processed.push( {old,modified})
-  localStorage.setItem('processed',JSON.stringify(processed))
+  // localStorage.setItem('processed',JSON.stringify(processed))
+  localStorage.setItem('processed','')
   var elem=document.createElement('div')
   elem.className='link'
   elem.innerHTML= `
@@ -75,7 +76,7 @@ function addlink(old, modified){
          <a href=${modified} class="new">
             ${modified}
          </a>
-      <button class="copybtn" aria-label="copy" data-link=${modified} >
+      <button class="copybtn" data-link=${modified} >
            copy
          </button>
        </span>
