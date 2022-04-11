@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [visit](https://shortener-url.com)
+- Live Site URL: [visit](https://shortener-url.vercel.app)
 
 ## My process
 
