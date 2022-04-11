@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [visit](https://your-live-site-url.com)
+- Live Site URL: [visit](https://shortener-url.com)
 
 ## My process
 
@@ -44,7 +44,7 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-
+-shrtco.de api
 
 
 
