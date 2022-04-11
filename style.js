@@ -64,8 +64,8 @@ var links=document.querySelector('.links')
 var processed=[]
 function addlink(old, modified){
   processed.push( {old,modified})
-  // localStorage.setItem('processed',JSON.stringify(processed))
-  localStorage.setItem('processed','')
+  localStorage.setItem('processed',JSON.stringify(processed))
+  // localStorage.setItem('processed','')
   var elem=document.createElement('div')
   elem.className='link'
   elem.innerHTML= `
