@@ -57,11 +57,11 @@ copybtn.forEach(ele=>{
  
     navigator.clipboard.writeText(e.target.dataset.link)
     e.target.style.background=" hsl(257, 27%, 26%)"
-          e.target.style.textContent='copied'
+          e.target.textContent='copied'
 
     setTimeout(()=>{
       e.target.style.background=''
-      e.target.style.textContent='copy'
+      e.target.textContent='copy'
     },2000)
   })
 })
