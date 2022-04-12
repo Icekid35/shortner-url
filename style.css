@@ -64,7 +64,7 @@ ul{
 .second-section{
 background: #f0f1f6;
 margin-top: 100px;
-min-height: 750px;
+min-height: 850px;
 padding-bottom: 160px;
 }
 
@@ -132,7 +132,7 @@ header{
   align-items: center;
   width: 98.5vw;
   height: 100px;
-  padding: 10px 10vw 0px 10vw;
+  padding: 20px 10vw 0px 10vw;
   margin-bottom: 30px;
 }
 .login{
