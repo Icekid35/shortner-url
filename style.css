@@ -9,7 +9,7 @@
 }
 @font-face {
   font-family: poppinsbolder;
-  src: url('font/Poppins-ExtraBold.otf');
+  src: url('font/Poppins-Bold.otf');
 }
 @font-face {
   font-family: poppinsbold;
@@ -67,7 +67,7 @@ ul{
 .second-section{
 background: #f0f1f6;
 margin-top: 50px;
-min-height: 650px;
+min-height: 750px;
 padding-bottom: 160px;
 }
 
@@ -135,7 +135,7 @@ header{
   align-items: center;
   width: 98.5vw;
   height: 100px;
-  padding: 0px 10vw;
+  padding: 10px 10vw 0px 10vw;
   margin-bottom: 30px;
 }
 .login{
@@ -180,7 +180,7 @@ nav ul li:hover{
 .beautiful{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
-  padding-bottom: 50px;
+  padding-bottom: 70px;
 }
 .right img{
   width: 100%;
@@ -278,7 +278,7 @@ grid-template-columns:1fr auto;
   
   background-color:  hsl(257, 27%, 26%);
 border-radius: 10px;
-  min-height: 150px;
+  min-height: 200px;
   margin: auto;
   margin-top: 100px;
 }
@@ -287,7 +287,7 @@ border-radius: 10px;
 }
 .shortner-box input{
   outline: none;
- height: 2.8rem;
+ height: 4rem;
   
   border-radius:10px;
   padding:7px 15px;
@@ -311,7 +311,7 @@ input:focus:invalid{
 }
 .shortner-box button{
   border-radius: 5px;
-  padding:15px 20px;
+  padding:27px 35px;
 }
 h2{
   font-size: 2rem;
