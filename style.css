@@ -85,7 +85,7 @@ section .boxes::before{
   background: hsl(180, 66%, 49%);
   width:80%;
   height: 10px;
-  transform: translate(30px,100px)
+  transform: translate(30px,150px)
 }
 section .box{
   display:flex;
@@ -105,7 +105,7 @@ section .box .icon{
   transform: translateY(-50%);
   top: 0px;
   left:20px;
-  padding: 10px;
+  padding: 20px;
   background: hsl(257, 27%, 26%);
   border-radius: 50%;
 }
@@ -118,8 +118,8 @@ section .box h3{
   
 }
 .icon img{
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 35px;
 }
 [data-two]{
  transform: translateY(15%) ;
@@ -515,6 +515,6 @@ header{
  padding: 5px;
 }
 h1{
-  font-size: 1.5rem
+  font-size: 1rem
 }
 }
