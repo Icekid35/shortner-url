@@ -537,4 +537,7 @@ button{
 header{
   margin-bottom: 100px
 }
+.invalid{
+  font-size: .7rem
+}
 }
