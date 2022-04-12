@@ -527,4 +527,7 @@ section .box h3{
 section .box{
   text-align: center
 }
+button{
+  padding: 13px
+}
 }

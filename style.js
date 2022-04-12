@@ -26,6 +26,10 @@ form.addEventListener('submit',(e)=>{
       invalid.textContent='an unexpected error occured please try again'
 
       invalid.style.display='block'
+      setTimeout(()=>{
+              invalid.style.display='block'
+
+      },2000)
 
 })
 })
@@ -53,9 +57,11 @@ copybtn.forEach(ele=>{
  
     navigator.clipboard.writeText(e.target.dataset.link)
     e.target.style.background=" hsl(257, 27%, 26%)"
-    
+          e.target.style.textContent='copied'
+
     setTimeout(()=>{
       e.target.style.background=''
+      e.target.style.textContent='copy'
     },2000)
   })
 })
