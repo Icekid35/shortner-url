@@ -531,13 +531,13 @@ section .box{
 button{
   padding: 13px
 }
-.second-section{
-  padding-bottom: 3px;
-}
 header{
   margin-bottom: 100px
 }
 .invalid{
   font-size: .7rem
+}
+.shortner-box{
+  margin-bottom: 3px;
 }
 }
