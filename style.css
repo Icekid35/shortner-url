@@ -15,12 +15,9 @@
   font-family: poppinsbold;
   src: url('font/Poppins-Bold.otf');
 }
-h1{
+h1,h2,h3{
   font-family: poppinsbolder;
-  font-size: 3rem;
-}
-h2,h3,h4{
-  font-family: poppinsbolder
+  color:hsl(255, 11%, 22%);
 }
 body{
   margin:0px;
@@ -333,6 +330,10 @@ h3{
 }
   .boost button{
     margin-top: 10px;
+  }
+  .boost h3{
+    color: white;
+    
   }
   
   .links{
