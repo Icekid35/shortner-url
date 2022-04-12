@@ -133,7 +133,8 @@ header{
   width: 98.5vw;
   height: 100px;
   padding: 20px 10vw 0px 10vw;
-  margin-bottom: 30px;
+    margin-bottom: 100px
+
 }
 .login{
   background: transparent;
@@ -529,5 +530,11 @@ section .box{
 }
 button{
   padding: 13px
+}
+.second-section{
+  padding-bottom: 3px;
+}
+header{
+  margin-bottom: 100px
 }
 }
